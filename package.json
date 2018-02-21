@@ -1,0 +1,30 @@
+{
+  "name": "drawing_program",
+  "author": {
+    "name": "Jason Seonhong Kim",
+    "email": "nardgu@gmail.com",
+    "url": "https://github.com/narr"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "4.18.0",
+    "eslint-config-standard": "11.0.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jest": "21.12.2",
+    "eslint-plugin-node": "6.0.0",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1",
+    "jest": "22.4.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "jest --verbose"
+  }
+}
